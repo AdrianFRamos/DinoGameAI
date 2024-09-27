@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DinoGameAI.Tipos;
+using static DinoGameAI.Variaveis;
 
 namespace DinoGameAI
 {
@@ -29,7 +31,7 @@ namespace DinoGameAI
                 {
                     montanha[i].X[j] = montanha[i].X[j] + VELOCIDADE * ((i * 0.02) + 0.01);
 
-                    if (montanha[i].X[j] < -LARG_TELA / 2)
+                    if (montanha[i].X[j] < - LARG_TELA / 2)
                     {
                         montanha[i].X[j] = montanha[i].X[j] + 2 * LARG_TELA;
                     }

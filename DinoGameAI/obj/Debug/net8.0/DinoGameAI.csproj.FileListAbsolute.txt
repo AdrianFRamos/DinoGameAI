@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Adrian\DinoGameAI\DinoGameAI\obj\Debug\net8.0\DinoGameAI.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Adrian\DinoGameAI\DinoGameAI\obj\Debug\net8.0\DinoGameAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Adrian\DinoGameAI\DinoGameAI\obj\Debug\net8.0\DinoGameAI.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Adrian\DinoGameAI\DinoGameAI\obj\Debug\net8.0\DinoGameAI.AssemblyInfo.cs
+C:\Users\User\Desktop\Adrian\DinoGameAI\DinoGameAI\obj\Debug\net8.0\DinoGameAI.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Adrian\DinoGameAI\DinoGameAI\obj\Debug\net8.0\DinoGameAI.sourcelink.json

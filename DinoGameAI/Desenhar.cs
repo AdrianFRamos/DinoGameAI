@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
+using static DinoGameAI.Tipos;
+using static DinoGameAI.Game;
+using static DinoGameAI.Variaveis;
 
 namespace DinoGameAI
 {

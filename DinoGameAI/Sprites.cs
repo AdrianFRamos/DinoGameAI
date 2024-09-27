@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing; 
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,25 @@ namespace DinoGameAI
         public int SpriteNeuronAtivado;
         public int SpriteLuz;
         public int SpriteSeta;
+
+        public int CriarSprite(string caminhoImagem)
+        {
+            try
+            {
+                Image imagem = Image.FromFile(caminhoImagem);
+
+                Random random = new Random();
+                int identificadorSprite = random.Next(1, 1000);
+
+                Console.WriteLine($"Imagem carregada: {caminhoImagem} - ID do Sprite: {identificadorSprite}");
+                return identificadorSprite;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao carregar a imagem: {caminhoImagem}. Detalhes: {ex.Message}");
+                return -1;
+            }
+        }
 
         public void InicializarSpriteAviao()
         {
@@ -110,7 +130,7 @@ namespace DinoGameAI
 
         public Sprite GetChaoSprite()
         {
-            static int cont = 0;
+            int cont = 0;
             int indice;
             Sprite sprite;
 
@@ -176,6 +196,5 @@ namespace DinoGameAI
 
             return sprite;
         }
-
     }
 }

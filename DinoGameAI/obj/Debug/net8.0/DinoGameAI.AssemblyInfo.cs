@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DinoGameAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c335c7c856fa62dd5942a3bc8d961f6c6a3a5d3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DinoGameAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DinoGameAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

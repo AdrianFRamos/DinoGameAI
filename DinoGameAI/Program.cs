@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Threading;
 using static System.Net.Mime.MediaTypeNames;
+using static DinoGameAI.Tipos;
+using static DinoGameAI.Game;
+using static DinoGameAI.Variaveis;
 
 namespace DinoGameAI
 {
