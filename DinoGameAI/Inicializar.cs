@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using static DinoGameAI.Tipos;
 using static DinoGameAI.Game;
 using static DinoGameAI.Variaveis;
+using static DinoGameAI.RedeNeural;
 
 namespace DinoGameAI
 {
